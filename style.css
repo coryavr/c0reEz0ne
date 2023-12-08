@@ -22,10 +22,12 @@ h1 {
 .flex-container {
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-end;
   }
-div{
-    height: 20px;
-    width:20px;
+.item{
     background: fuchsia;
-    padding: 100px;
+    padding: 20px;
+  
 }
+
