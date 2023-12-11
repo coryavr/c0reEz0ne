@@ -10,7 +10,7 @@ html, body, div, img {
     font: inherit;
     vertical-align: baseline;
 }
-body {
+body {font-family:  Script MT, Brush Script Std, cursive;
     line-height: 1;
     background: black;
 }
@@ -28,4 +28,12 @@ body {
   margin: 10px;
   height: 25%;
   width: 25%;
+}
+.home{ position: fixed;
+   /* border: 3px solid #73AD21;*/
+    top: 30px;
+    right: 40px; 
+    font-size: 150%;
+    font-family:  Script MT, Brush Script Std, cursive;
+    background-image:url("photos/planets .gif");
 }
